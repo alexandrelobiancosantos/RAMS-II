@@ -1,2 +1,3 @@
 frontend_Original/
 venv/
+db.sqlite3

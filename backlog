@@ -1,0 +1,17 @@
+clone do frontend frontend_Original
+venv criado
+django instalado
+projeto rams_project
+app rams_app
+rams_project/settings.py
+    -app
+    -base dir
+    -/static/
+rams_project/urls.py
+rams_app/urls.py
+rams_app/views.py
+
+rams_app/templates/rams_app/pages
+rams_app/templates/rams_app/partials
+frontend_Original/blank.html -> rams_app/templates/rams_app/pages/index.html
+
