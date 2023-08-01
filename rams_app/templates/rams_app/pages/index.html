@@ -14,98 +14,154 @@
             {% include 'rams_app/partials/navbar.html' %}
             <!-- Navbar End -->
 
-            <!-- Dashboard Start -->
+            <!-- Cooling -->
+
+            <!-- Chillet tilte -->
             <div class="container-fluid pt-4 px-4">
                 <div class="row g-4">
-                    <div class="col-sm-6 col-xl-3">
+                    <div class="col-sm-6 col-xl-12">
                         <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
-                            <!--i class="fa fa-chart-line fa-3x text-primary"></i-->
+                            <h2 class="mb-0">Cooling System</h2>
+                            <i class="fa-regular fa-snowflake fa-3x text-primary text-center"></i>
+                            <button type="button" class="btn btn-success m-2">Success</button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <!--Chiller Display Info-->
+            <div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+                    <!--div class="col-sm-6 col-xl-3"-->
+                    <div class="col-sm-6 col-xl-4">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
                             <i class="fa-solid fa-temperature-half fa-3x text-primary"></i>
                             <h6 class="mb-0">Chiller out</h6>
                             <div class="ms-3">
-                                <h6 class="mb-2">T<sub>set</sub>=20<code style="color: white;">&deg;</code>C</h6>
-                                <h6 class="mb-2">T=20<code style="color: white;">&deg;</code>C</h6>
+                                <h6 class="mb-2">T<sub>set</sub> = 20<code style = "color: white;">&deg;</code>C</h6>
+                                <h6 class="mb-2">T = 20<code style="color: white;">&deg;</code>C</h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xl-3">
+                    <!--div class="col-sm-6 col-xl-3"-->
+                    <div class="col-sm-6 col-xl-4">
                         <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
-                            <!--i class="fa fa-chart-line fa-3x text-primary"></i-->
                             <i class="fa-solid fa-temperature-half fa-3x text-primary"></i>
                             <h6 class="mb-0">Left Mag Temperature</h6>
                             <div class="ms-3">
-                                <h6 class="mb-2">T<sub>set</sub>=20<code style="color: white;">&deg;</code>C</h6>
-                                <h6 class="mb-2">T=20<code style="color: white;">&deg;</code>C</h6>
+                                <h6 class="mb-2">T<sub>set</sub> = 20<code style="color: white;">&deg;</code>C</h6>
+                                <h6 class="mb-2">T = 20<code style="color: white;">&deg;</code>C</h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xl-3">
+                    <!--div class="col-sm-6 col-xl-3"-->
+                    <div class="col-sm-6 col-xl-4">
                         <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
-                            <!--i class="fa fa-chart-line fa-3x text-primary"></i-->
                             <i class="fa-solid fa-temperature-half fa-3x text-primary"></i>
                             <h6 class="mb-0">Right Mag Temperature</h6>
                             <div class="ms-3">
-                                <h6 class="mb-2">T<sub>set</sub>=20<code style="color: white;">&deg;</code>C</h6>
-                                <h6 class="mb-2">T=20<code style="color: white;">&deg;</code>C</h6>
+                                <h6 class="mb-2">T<sub>set</sub> = 20<code style="color: white;">&deg;</code>C</h6>
+                                <h6 class="mb-2">T = 20<code style="color: white;">&deg;</code>C</h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xl-3">
+                    <!--div class="col-sm-6 col-xl-3"-->
+                    <div class="col-sm-6 col-xl-4">
                         <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
-                            <!--i class="fa fa-chart-line fa-3x text-primary"></i-->
-                            <i class="fa-solid fa-temperature-half fa-3x text-primary"></i>
+                            <i class="fa-solid fa-water fa-3x text-primary"></i>
                             <h6 class="mb-0">Left Mag flow</h6>
                             <div class="ms-3">
-                                <h6 class="mb-2">T<sub>set</sub>=2.0 l/min</h6>
-                                <h6 class="mb-2">T=20<code style="color: white;">&deg;</code>C</h6>
+                                <h6 class="mb-2">Φ = 2.0 l/min</h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xl-3">
+                    <!--div class="col-sm-6 col-xl-3"-->
+                    <div class="col-sm-6 col-xl-4">
                         <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
-                            <!--i class="fa fa-chart-line fa-3x text-primary"></i-->
-                            <i class="fa-solid fa-temperature-half fa-3x text-primary"></i>
+                            <i class="fa-solid fa-water fa-3x text-primary"></i>
                             <h6 class="mb-0">Right Mag flow</h6>
                             <div class="ms-3">
-                                <h6 class="mb-2">T<sub>set</sub>=2.0 l/min</h6>
-                                <h6 class="mb-2">T=20<code style="color: white;">&deg;</code>C</h6>
+                                <h6 class="mb-2">Φ = 2.0 l/min</h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xl-3">
+                    <!--div class="col-sm-6 col-xl-3"-->
+                    <div class="col-sm-6 col-xl-4">
                         <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
-                            <!--i class="fa fa-chart-line fa-3x text-primary"></i-->
-                            <i class="fa-solid fa-temperature-half fa-3x text-primary"></i>
-                            <h6 class="mb-0">Right Mag flow</h6>
+                            <i class="fa-solid fa-plug fa-3x text-primary"></i>
+                            <h6 class="mb-0">Chiller Operating Current</h6>
                             <div class="ms-3">
-                                <h6 class="mb-2">T<sub>set</sub>=2.0 l/min</h6>
-                                <h6 class="mb-2">T=20<code style="color: white;">&deg;</code>C</h6>
+                                <h6 class="mb-2">I<sub>set</sub> &#60 2.0 A</h6>
+                                <h6 class="mb-2">I = 0.5 A</h6>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-xl-6">
-                        <div class="bg-secondary text-center rounded p-4">
-                            <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h6 class="mb-0">Worldwide Sales</h6>
-                                <a href="">Show All</a>
-                            </div>
-                            <canvas id="worldwide-sales"></canvas>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-xl-6">
-                        <div class="bg-secondary text-center rounded p-4">
-                            <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h6 class="mb-0">Salse & Revenue</h6>
-                                <a href="">Show All</a>
-                            </div>
-                            <canvas id="salse-revenue"></canvas>
                         </div>
                     </div>
                 </div>
-
-                
             </div>
-            <!-- Sale & Revenue End -->
+            <!-- Vacuum -->
+
+            <!-- Vacuum tilte -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+                    <div class="col-sm-6 col-xl-12">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                            <h2 class="mb-0">Vacuum </h2>
+                            <i class="fa-solid fa-wind fa-3x text-primary text-center"></i>
+                            <button type="button" class="btn btn-warning m-2">Warning</button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <!--Chiller Display Info-->
+            <div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+                    <!--div class="col-sm-6 col-xl-3"-->
+                    <div class="col-sm-6 col-xl-6">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa-solid fa-temperature-half fa-3x text-primary"></i>
+                            <h6 class="mb-0">Pressure pre-chamber</h6>
+                            <div class="ms-3">
+                                <h6 class="mb-2">P<sub>set</sub> &#60 5.0x10<sup>-2</sup> mbar</h6>
+                                <h6 class="mb-2">P = 2.0x10<sup>-3</sup> mbar</h6>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--div class="col-sm-6 col-xl-3"-->
+                    <div class="col-sm-6 col-xl-6">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa-solid fa-plug fa-3x text-primary"></i>
+                            <h6 class="mb-0">Scroll Pump Operating Current</h6>
+                            <div class="ms-3">
+                                <h6 class="mb-2">I<sub>set</sub> &#60 2.0 A</h6>
+                                <h6 class="mb-2">I = 0.5 A</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!--div class="col-sm-6 col-xl-3"-->
+                    <div class="col-sm-6 col-xl-6">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa-solid fa-temperature-half fa-3x text-primary"></i>
+                            <h6 class="mb-0">Pressure experiment chamber</h6>
+                            <div class="ms-3">
+                                <h6 class="mb-2">P<sub>set</sub> &#60 5.0x10<sup>-7</sup> mbar</h6>
+                                <h6 class="mb-2">P = 2.0x10<sup>-7</sup> mbar</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!--div class="col-sm-6 col-xl-3"-->
+                    <div class="col-sm-6 col-xl-6">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa-solid fa-plug fa-3x text-primary"></i>
+                            <h6 class="mb-0">Scroll Pump Operating Current</h6>
+                            <div class="ms-3">
+                                <h6 class="mb-2">I<sub>set</sub> &#60 2.0 A</h6>
+                                <h6 class="mb-2">I = 0.5 A</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <!--div class="container-fluid pt-4 px-4">
                 <div class="row vh-100 bg-secondary rounded align-items-center justify-content-center mx-0">

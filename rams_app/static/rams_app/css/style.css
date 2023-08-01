@@ -1,18 +1,18 @@
 /********** Template CSS **********/
-/*:root {
+:root {
     --primary: #EB1616;
     --secondary: #191C24;
     --light: #6C7293;
     --dark: #000000;
-}*/
-
+}
+/*
 :root {
     --primary: #00b7df;
     --dark: #000000ff;
     --light: #132934ff;
     --secondary: #00B6DEff;
 }
-
+*/
 
 .back-to-top {
     position: fixed;
